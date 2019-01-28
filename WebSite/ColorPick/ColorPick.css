@@ -1,0 +1,37 @@
+﻿
+
+body {
+   background-color: #232323;
+   font-size: 20px;
+}
+
+h1 {
+   font-size: 250%;
+   color: whitesmoke;
+   transition: all 0.5s;
+   text-transform: uppercase;
+   margin: 2.5% 0;
+}
+
+#rgb {
+   font-size: 150%;
+}
+
+.colorBox {
+   width: 30%;
+   padding-bottom: 30%;
+   margin: 1.66%;
+   float: left;
+   transition: all 0.3s;
+   border-radius: 5%;
+}
+
+#conatiner {
+   margin: 0 auto;
+   max-width: 800px;
+}
+#navbarContainer {
+}
+.container .cb-inactive {
+   background-color: #232323;
+}

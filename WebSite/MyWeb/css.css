@@ -1,0 +1,47 @@
+
+
+body {
+    font-family: oswald;
+
+    
+}
+
+h2 {
+    color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.content + div {
+    border-top: 2px gray solid;
+}
+
+p:nth-of-type(1) {
+    border-left: 3px gray solid;
+    padding-left: 10px;
+}
+
+.jumbotron {
+    background-image: url(landmanalaugar.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+.colorBox {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    background: purple;
+    float: left;
+}
+#conatiner {
+    margin: 0 auto;
+    max-width: 800px;
+}
