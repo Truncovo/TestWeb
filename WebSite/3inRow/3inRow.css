@@ -1,0 +1,48 @@
+﻿body {
+
+}
+.g_playField {
+   min-width:  600px;
+   max-width: 600px;
+}
+
+.g_shape {
+   width: 150px;
+   height: 150px;
+   margin: 20px;
+   float: left;
+   transition: all 0.3s;
+   background: aqua;
+      
+}
+.g_circle {
+   padding-top: 132px;
+   padding-left: 132px;
+   border-radius: 50%;
+   border-color: black;
+   border-width: 9px;
+   border-style: solid;
+}
+
+.g_cross {
+   padding-top: 150px;
+   background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(48.5% - 0.8px), rgba(0, 0, 0, 1) 48.5%, rgba(0, 0, 0, 1) 51.5%, rgba(0, 0, 0, 0) calc(51.5% + 0.8px), rgba(0, 0, 0, 0) 100%), linear-gradient(to top right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(48.5% - 0.8px), rgba(0, 0, 0, 1) 48.5%, rgba(0, 0, 0, 1) 51.5%, rgba(0, 0, 0, 0) calc(51.5% + 0.8px), rgba(0, 0, 0, 0) 100%);
+}
+
+h1, h3 {
+   align-content: center;
+   text-align: center;
+}
+
+.g_gameOverMessage {
+   background: gray;
+}
+   .g_gameOverMessage .message {
+      font-size : 130%;
+      font-weight: bold;
+   }
+
+   .g_gameOverMessage div {
+      align-content: center;
+      text-align: center;
+   }
