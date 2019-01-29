@@ -54,6 +54,7 @@ var CheckRow = function(first, second, third) {
 
 var NewGameF = function () {
    console.log("new game f");
+   document.querySelector(".g_gameOverMessage").style.display = "none";
    gameOver = false;
    for (var i = 0; i < boxes.length; i++) {
       boxes[i].classList.remove("g_circle");
@@ -66,7 +67,7 @@ var NewGameF = function () {
 
 var GameOverF = function () {
    console.log("game over f");
-
+   document.querySelector(".g_gameOverMessage").style.display = "";
    gameOver = true;
    document.addEventListener("keydown", NewGameF);
 }
@@ -92,6 +93,7 @@ var Draw = function () {
 var gameOver = false;
 var circlePlaying = Math.random() >= 0.5;
 
+document.querySelector(".g_gameOverMessage").style.display = "none";
 var boxes = document.querySelectorAll(".g_shape");
 for (var i = 0; i < boxes.length; i++) {
    boxes[i].addEventListener("click", CreateShape);
