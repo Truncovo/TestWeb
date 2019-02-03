@@ -1,4 +1,6 @@
 ﻿
+document.querySelector(".g_gameOverMessage").style.display = "none";
+
 var CreateShape = function () {
    if (gameOver)
       return;
@@ -93,7 +95,6 @@ var Draw = function () {
 var gameOver = false;
 var circlePlaying = Math.random() >= 0.5;
 
-document.querySelector(".g_gameOverMessage").style.display = "none";
 var boxes = document.querySelectorAll(".g_shape");
 for (var i = 0; i < boxes.length; i++) {
    boxes[i].addEventListener("click", CreateShape);
